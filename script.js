@@ -201,4 +201,3 @@ op15Btn.addEventListener("click",op15Rec);
 op16Btn.addEventListener("click",op16Rec);
 op17Btn.addEventListener("click",op17Rec);
 
-$('table').DataTable();
