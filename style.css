@@ -1,10 +1,10 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1;
 }
 
-textarea{
+textarea {
   background: transparent;
   border: none;
   resize: none;
@@ -21,11 +21,11 @@ textarea{
   border-bottom: 10px solid black;
 }
 
-.description{
+.description {
   white-space: pre-wrap;
 }
 
-.time-block{
+.time-block {
   text-align: center;
   border-radius: 15px;
 }
@@ -33,7 +33,7 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
 }
 
 .hour {
@@ -61,11 +61,39 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #06aed5;
   color: white;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn {
+  border: none;
+  background-color: hsl(360, 91%, 36%);
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
+    0px;
+  color: hsl(0, 0%, 100%);
+  display: inline-block;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 16px 16px 16px 20px;
+  padding: 14px 34px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.rowb {
+  background-color: aqua;
+}
+
+.rowr {
+  background-color: orangered;
+}
+
+.rowg {
+  background-color: gainsboro;
 }
