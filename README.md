@@ -4,8 +4,7 @@
 
 Calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-Using [Moment.js](https://momentjs.com/) library to work with date and time. 
-
+Using [Moment.js](https://momentjs.com/) library to work with date and time.
 
 ## User Story
 
@@ -14,7 +13,6 @@ AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 ```
-
 
 ## Acceptance Criteria
 
@@ -36,3 +34,4 @@ THEN the saved events persist
 
 GitHub Pages URL: https://luiscontrerasglz.github.io/Work_Day_Scheduler/
 
+![Screenshot Index](./imageapp.png)
